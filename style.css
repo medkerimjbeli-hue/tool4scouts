@@ -102,3 +102,30 @@ button:hover {
   left: 20px;
 }
 
+
+#secretTree {
+  background-image: url('Media/tree-icon.png');
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+/* ✅ Mobile fix */
+@media (max-width: 600px) {
+  #secretTree {
+    bottom: 100px; /* move it higher to avoid overlap */
+    left: 10px;
+  }
+
+  textarea {
+    margin-bottom: 120px; /* add space below textarea */
+  }
+}
+
+
