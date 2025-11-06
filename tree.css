@@ -27,7 +27,7 @@
 body {
   margin: 0;
   font-family: 'Cairo', sans-serif;
-  background: url('../../../Media/mowgli-forest.jpeg') center/cover no-repeat;
+  background: url('Media/mowgli-forest.jpeg') center/cover no-repeat;
   color: white;
   text-align: center;
   backdrop-filter: blur(4px);
@@ -70,3 +70,4 @@ button:hover {
   font-weight: bold;
   color: #FFD700;
 }
+
