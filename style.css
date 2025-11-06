@@ -91,7 +91,7 @@ button:hover {
 }
 
 #secretTree {
-  background-image: url('../../../Media/mowgli-vine.png');
+  background-image: url('Media/mowgli-vine.png');
   background-size: cover;
   width: 160px;
   height: 160px;
@@ -101,3 +101,4 @@ button:hover {
   bottom: 20px;
   left: 20px;
 }
+
