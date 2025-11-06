@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تحديات الأشجار</title>
+  <link rel="stylesheet" href="tree.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>تحديات الأشجار مع موكلي 🌿</h1>
+
+    <div class="question">
+      <p>ما هي أطول شجرة في العالم؟</p>
+      <button onclick="revealAnswer(this)">إظهار الإجابة</button>
+      <p class="answer">شجرة الخشب الأحمر (Redwood)</p>
+      <div class="feedback">
+        <button onclick="playSound('correct')">✅ إجابة صحيحة</button>
+        <button onclick="playSound('wrong')">❌ إجابة خاطئة</button>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>ما هي وظيفة الجذور في الشجرة؟</p>
+      <button onclick="revealAnswer(this)">إظهار الإجابة</button>
+      <p class="answer">امتصاص الماء والمعادن وتثبيت الشجرة</p>
+      <div class="feedback">
+        <button onclick="playSound('correct')">✅ إجابة صحيحة</button>
+        <button onclick="playSound('wrong')">❌ إجابة خاطئة</button>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>ما اسم الجزء الذي يصنع الغذاء في الشجرة؟</p>
+      <button onclick="revealAnswer(this)">إظهار الإجابة</button>
+      <p class="answer">الأوراق</p>
+      <div class="feedback">
+        <button onclick="playSound('correct')">✅ إجابة صحيحة</button>
+        <button onclick="playSound('wrong')">❌ إجابة خاطئة</button>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>ما اسم الجزء الذي يصنع الغذاء في الشجرة؟</p>
+      <button onclick="revealAnswer(this)">إظهار الإجابة</button>
+      <p class="answer">الأوراق</p>
+      <div class="feedback">
+        <button onclick="playSound('correct')">✅ إجابة صحيحة</button>
+        <button onclick="playSound('wrong')">❌ إجابة خاطئة</button>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>ما اسم الجزء الذي يصنع الغذاء في الشجرة؟</p>
+      <button onclick="revealAnswer(this)">إظهار الإجابة</button>
+      <p class="answer">الأوراق</p>
+      <div class="feedback">
+        <button onclick="playSound('correct')">✅ إجابة صحيحة</button>
+        <button onclick="playSound('wrong')">❌ إجابة خاطئة</button>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>ما اسم الجزء الذي يصنع الغذاء في الشجرة؟</p>
+      <button onclick="revealAnswer(this)">إظهار الإجابة</button>
+      <p class="answer">الأوراق</p>
+      <div class="feedback">
+        <button onclick="playSound('correct')">✅ إجابة صحيحة</button>
+        <button onclick="playSound('wrong')">❌ إجابة خاطئة</button>
+      </div>
+    </div>
+
+    <div class="question">
+      <p>ما اسم الجزء الذي يصنع الغذاء في الشجرة؟</p>
+      <button onclick="revealAnswer(this)">إظهار الإجابة</button>
+      <p class="answer">الأوراق</p>
+      <div class="feedback">
+        <button onclick="playSound('correct')">✅ إجابة صحيحة</button>
+        <button onclick="playSound('wrong')">❌ إجابة خاطئة</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="correctSound" src="../../../Media/correct.mp3"></audio>
+  <audio id="wrongSound" src="../../../Media/wrong.mp3"></audio>
+
+  <script>
+    function revealAnswer(button) {
+      button.nextElementSibling.style.display = "block";
+    }
+
+    function playSound(type) {
+      const sound = type === "correct" ? "correctSound" : "wrongSound";
+      document.getElementById(sound).play();
+    }
+  </script>
+</body>
+</html>

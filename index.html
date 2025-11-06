@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مولّد الأرقام للكشافة</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="../../../Media/logo.jpg" alt="Logo Cubs" class="logo left" />
+    <h1>مولّد الأرقام للكشافة</h1>
+    <img src="../../../Media/logo_scouts_tunisiens.jpg" alt="Logo Scouts Tunisiens" class="logo right" />
+  </header>
+
+  <main>
+    <section class="generator">
+      <div id="result">?</div>
+      <div class="inputs">
+        <label for="min"></label>
+        <input type="number" id="min" name="min" placeholder="الحد الأدنى" required />
+        <label for="max"></label>
+        <input type="number" id="max" name="max" placeholder="الحد الأقصى" required />
+      </div>
+      <button onclick="generateRandom()">توليد رقم</button>
+      <p id="error" class="error"></p>
+    </section>
+
+    <section class="name-picker">
+      <h2>أدخل أسماء الكشافين</h2>
+      <textarea id="names" placeholder="...افصل الأسماء بفاصلة.."></textarea>
+      <button onclick="pickName()">اختيار اسم</button>
+      <p id="nameResult"></p>
+    </section>
+
+    <button id="secretTree" onclick="goToTreePage()" title=""></button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

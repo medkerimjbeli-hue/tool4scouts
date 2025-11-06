@@ -1,0 +1,72 @@
+.feedback {
+  margin-top: 10px;
+}
+
+.feedback button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.feedback button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.feedback button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.feedback button:hover {
+  opacity: 0.9;
+}
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  background: url('../../../Media/mowgli-forest.jpeg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  backdrop-filter: blur(4px);
+}
+
+.quiz-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 700px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.question {
+  margin-bottom: 30px;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px 20px;
+  background-color: #228B22;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e7b1e;
+}
+
+.answer {
+  display: none;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #FFD700;
+}
