@@ -104,7 +104,7 @@ button:hover {
 
 
 #secretTree {
-  background-image: url('Media/tree-icon.png');
+  background-image: url('Media/mowgli-vine.png');
   background-size: cover;
   width: 60px;
   height: 60px;
@@ -127,5 +127,6 @@ button:hover {
     margin-bottom: 120px; /* add space below textarea */
   }
 }
+
 
 
